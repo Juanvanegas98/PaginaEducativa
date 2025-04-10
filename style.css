@@ -1,6 +1,5 @@
 header{
-    background-color: #3498db;
-  color: #fff;
+    background-color: #E3287A;
   padding: 15px;
   display: flex;
   justify-content: space-between;
@@ -12,6 +11,7 @@ nav ul {
     display: flex;
 }
 nav li {
+    color: white;
     margin-right: 20px;
   }
 .Menu{
