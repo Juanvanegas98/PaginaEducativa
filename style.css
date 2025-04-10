@@ -1,9 +1,10 @@
-.Logo{
+.Logo-menu{
     background-color: #E3287A;
     padding: 10px;
     margin: 20px 0;
     border-radius: 4px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    display: inline;
 }
 .Menu{
     background-color: #cec3c8;
