@@ -1,9 +1,7 @@
 .Logo{
-    background-color: #db9494;
-    border: 2px solid #3700ff;
-    margin-top: 20px;      /* Margen superior */
-    margin-right: 40px;    /* Margen derecho */
-    margin-bottom: 30px;   /* Margen inferior */
-    margin-left: 50px;     /* Margen izquierdo */
-    padding: 15px;
+    background-color: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
