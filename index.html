@@ -10,7 +10,7 @@
 <body>
     <header>
         <nav>
-                <img src="./img/logo-cesde-blanco-sin-fondov2.png" alt="logo cesde">
+                <img src="./img/logo-cesde-blanco-sin-fondov2.png" alt="logo cesde" class="logo">
 
                 <ul>
                     <li><a href="index.html">Inicio</a>
@@ -23,15 +23,16 @@
                     </li>
                     <li><a href="Contacto.html">Contacto</a>
                     </li>
-                    <li><a href="Ubicacion.html">Ubicacion   </a>
+                    <li><a href="Ubicacion.html">Ubicacion</a>
                     </li>
                 </ul>   
-           
+                
         </nav>
+        <button class="login-btn" onclick="location.href='./login.html'">Iniciar Sesión</button>
     </header>
     <br>
-        <button class="login-btn" onclick="location.href='./login.html'">Iniciar Sesión</button>
-    
+        
+
         <main>
         <section class="Inicio">
             <h1>
@@ -53,11 +54,24 @@
                 </ul>
             </p>
         </section>
+        <section class="imagenes-bloque">
+            <div class="imagen">
+              <img src="./img/desarrollo-software-cesde.jpg" alt="Imagen 1">
+            </div>
+            <div class="imagen">
+              <img src="./img/Diseno-grafico-cesde.jpg" alt="Imagen 2">
+            </div>
+            <div class="imagen">
+              <img src="./img/herramientas-ofimaticas.jpg" alt="Imagen 3">
+            </div>
+          </section>
+        
     </main>
+    <br>
     
     
 </body>
-<footer style="position: fixed; bottom: 0;">
+<footer>
     <p>© 2023 CESDE - Todos los derechos reservados.</p>
 </footer>
 </html>
