@@ -79,18 +79,32 @@ header{
     transition: background-color 0.3s ease;
     align-items: right;
   }
+  /* Menú hamburguesa */
+.menu-hamburguesa {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  gap: 5px;
+}
+
+.menu-hamburguesa .bar {
+  width: 25px;
+  height: 3px;
+  background-color: #fff;
+}
   
   .login-btn:hover {
     background-color: #c61f65;
   }
-  footer {
-    background-color: #b3b3b3;
-    padding: 20px 0;
-    color: white;
-    text-align: center;
-  }
+
   
 /* --- FOOTER --- */
+footer {
+  background-color: #b3b3b3;
+  padding: 20px 0;
+  color: white;
+  text-align: center;
+}
   .footer-content {
     max-width: 1200px;
     margin: 0 auto;
