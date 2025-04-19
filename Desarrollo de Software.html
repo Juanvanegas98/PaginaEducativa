@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desarrollo de Software</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+                <img src="./img/logo-cesde-blanco-sin-fondov2.png" alt="logo cesde">
+
+                <ul>
+                    <li><a href="index.html">Inicio</a>
+                    </li>
+                    <li><a href="servicios.html">Servicios</a>
+                    </li>    
+                    <li><a href="Blog.html">Blog</a>
+                    </li>
+                    <li><a href="prestamo.html">Prestamos</a>
+                    </li>
+                    <li><a href="Contacto.html">Contacto</a>
+                    </li>
+                    <li><a href="Ubicacion.html">Ubicacion   </a>
+                    </li>
+                </ul>   
+           
+        </nav>
+
+    </header>
+    <section class="prestamo-equipos">
+      <h1>Préstamo de Equipos para Desarrollo de Software</h1>
+    
+      <p>
+        El área de Desarrollo de Software proporciona equipos especialmente configurados para aquellos estudiantes y profesionales que necesiten herramientas adecuadas para la programación y el desarrollo de software. Los equipos disponibles cuentan con entornos de desarrollo integrados (IDE) y herramientas de software que facilitan el trabajo de desarrollo.
+      </p>
+    
+      <h2>Equipos Disponibles para Préstamo</h2>
+      <ul>
+        <li><strong>Computadoras con IDEs:</strong> Equipos con herramientas como Visual Studio, Eclipse, IntelliJ IDEA, etc.</li>
+        <li><strong>Servidores Virtuales:</strong> Para la creación y despliegue de aplicaciones.</li>
+        <li><strong>Dispositivos para pruebas móviles:</strong> Teléfonos y tabletas para pruebas de aplicaciones móviles.</li>
+        <li><strong>Hardware de desarrollo especializado:</strong> Equipos con tarjetas gráficas y procesadores de alto rendimiento para desarrollo de software intensivo.</li>
+      </ul>
+    
+      <h2>Formulario de Solicitud de Préstamo</h2>
+      <p>Para solicitar un equipo, por favor completa el siguiente formulario:</p>
+    
+      <form action="#" method="post">
+        <div class="form-group">
+          <label for="nombre">Nombre Completo:</label>
+          <input type="text" id="nombre" name="nombre" required="">
+        </div>
+    
+        <div class="form-group">
+          <label for="documento">Número de Documento:</label>
+          <input type="text" id="documento" name="documento" required="">
+        </div>
+    
+        <div class="form-group">
+          <label for="equipo">Selecciona el equipo a solicitar:</label>
+          <select id="equipo" name="equipo" required="">
+            <option value="">Seleccione un equipo</option>
+            <option value="computadora">Computadora con IDE para Desarrollo de Software</option>
+            <option value="servidor">Servidor Virtual</option>
+            <option value="movil">Dispositivo Móvil para pruebas</option>
+            <option value="hardware">Hardware especializado para desarrollo</option>
+          </select>
+        </div>
+    
+        <div class="form-group">
+          <label for="fecha">Fecha de Préstamo:</label>
+          <input type="date" id="fecha" name="fecha" required="">
+        </div>
+    
+        <div class="form-group">
+          <label for="hora">Hora de Préstamo:</label>
+          <input type="time" id="hora" name="hora" required="">
+        </div>
+    
+        <div class="form-group">
+          <button type="submit">Solicitar Préstamo</button>
+        </div>
+      </form>
+    </section>
+    
+</body>
+</html>

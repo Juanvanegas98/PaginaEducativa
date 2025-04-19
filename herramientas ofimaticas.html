@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Herramientas Ofimaticas</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./img/icono-cesde.png" />
+</head>
+<body>
+    <header>
+        <nav>
+                <img src="./img/logo-cesde-blanco-sin-fondov2.png" alt="logo cesde">
+
+                <ul>
+                    <li><a href="index.html">Inicio</a>
+                    </li>
+                    <li><a href="servicios.html">Servicios</a>
+                    </li>    
+                    <li><a href="Blog.html">Blog</a>
+                    </li>
+                    <li><a href="prestamo.html">Prestamos</a>
+                    </li>
+                    <li><a href="Contacto.html">Contacto</a>
+                    </li>
+                    <li><a href="Ubicacion.html">Ubicacion   </a>
+                    </li>
+                </ul>   
+           
+        </nav>
+        
+    </header>
+    <section class="prestamo-equipos-ofimaticas">
+        <h1>Préstamo de Equipos de Herramientas Ofimáticas</h1>
+      
+        <p>
+          El área de Herramientas Ofimáticas ofrece equipos con software básico necesario para tareas administrativas, como procesamiento de texto, hojas de cálculo, presentaciones y gestión de correo electrónico. Estos equipos son ideales para estudiantes y profesionales que necesitan herramientas para tareas ofimáticas cotidianas.
+        </p>
+      
+        <h2>Equipos Disponibles para Préstamo</h2>
+        <ul>
+          <li><strong>Computadoras con Suite Ofimática:</strong> Equipos con programas como Microsoft Office (Word, Excel, PowerPoint), Google Docs, entre otros.</li>
+          <li><strong>Escáneres y Impresoras:</strong> Equipos para digitalizar documentos y realizar impresiones de alta calidad.</li>
+          <li><strong>Tabletas gráficas:</strong> Herramientas para la creación de diagramas y gráficos de alta precisión.</li>
+          <li><strong>Proyectores:</strong> Dispositivos para hacer presentaciones en reuniones o exposiciones.</li>
+        </ul>
+      
+        <h2>Formulario de Solicitud de Préstamo</h2>
+        <p>Para solicitar un equipo, por favor completa el siguiente formulario:</p>
+      
+        <form action="#" method="post">
+          <div class="form-group">
+            <label for="nombre">Nombre Completo:</label>
+            <input type="text" id="nombre" name="nombre" required="">
+          </div>
+      
+          <div class="form-group">
+            <label for="documento">Número de Documento:</label>
+            <input type="text" id="documento" name="documento" required="">
+          </div>
+      
+          <div class="form-group">
+            <label for="equipo">Selecciona el equipo a solicitar:</label>
+            <select id="equipo" name="equipo" required="">
+              <option value="">Seleccione un equipo</option>
+              <option value="computadora">Computadora con Suite Ofimática</option>
+              <option value="escanner">Escáner</option>
+              <option value="impresora">Impresora</option>
+              <option value="tableta">Tableta Gráfica</option>
+              <option value="proyector">Proyector</option>
+            </select>
+          </div>
+      
+          <div class="form-group">
+            <label for="fecha">Fecha de Préstamo:</label>
+            <input type="date" id="fecha" name="fecha" required="">
+          </div>
+      
+          <div class="form-group">
+            <label for="hora">Hora de Préstamo:</label>
+            <input type="time" id="hora" name="hora" required="">
+          </div>
+      
+          <div class="form-group">
+            <button type="submit">Solicitar Préstamo</button>
+          </div>
+        </form>
+      </section>
+</body>
+</html>
