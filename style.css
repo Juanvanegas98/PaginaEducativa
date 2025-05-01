@@ -42,9 +42,10 @@ header{
   display: flex;
   justify-content: space-between;
   align-items: center;
+  font-size: 17px;
   }
   .logo {
-    height: 65px;
+    height: 55px;
     width: auto;
   }
   
@@ -65,7 +66,11 @@ header{
   }
   
   nav li a:hover {
-    background-color: #000000;
+    background-color: darkgrey;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+    align-items: center;
   }
   
   .login-btn {
@@ -73,11 +78,12 @@ header{
     color: rgb(255, 255, 255);
     padding: 10px 20px;
     border: none;
-    border-radius: 4px;
+    border-radius: 10px;
     cursor: pointer;
     margin-left: 20px;
     transition: background-color 0.3s ease;
     align-items: right;
+    font-size: 17px;
   }
   /* Menú hamburguesa */
 .menu-hamburguesa {
@@ -94,7 +100,7 @@ header{
 }
   
   .login-btn:hover {
-    background-color: #c61f65;
+    background-color: darkgrey;
   }
 
   
@@ -159,8 +165,8 @@ footer {
 }
 
 .imagen {
-  width: 400px; /* Ancho fijo para las imágenes */
-  height: 400px; /* Alto fijo para las imágenes */
+  width: 330px; /* Ancho fijo para las imágenes */
+  height: 330px; /* Alto fijo para las imágenes */
   border: 2px solid #E3287A; /* Borde rosa alrededor de las imágenes */
   border-radius: 8px; /* Bordes redondeados */
   overflow: hidden; /* Asegura que la imagen no se desborde */
@@ -175,6 +181,7 @@ footer {
 
 /* --- FORMULARIOS --- */
 .formulario-prestamo {
+  text-align: center;
   background-color: #fff;
   width: 90%; /* ocupa el 90% del ancho de la ventana */
   max-width: 500px; /* no crece más de 500px en pantallas grandes */
